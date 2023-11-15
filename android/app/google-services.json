@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1080367558841",
+    "project_id": "mypregnant-tbc",
+    "storage_bucket": "mypregnant-tbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080367558841:android:e0f137645a518ff7deab68",
+        "android_client_info": {
+          "package_name": "com.example.mypregnant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080367558841-got9vh8qvjno6nla2ecbp21ulntaqt45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAE5ARzTj0zaNtJMHxTDXOSckSyt7LQow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080367558841-got9vh8qvjno6nla2ecbp21ulntaqt45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
