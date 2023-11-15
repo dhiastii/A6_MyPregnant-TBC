@@ -21,11 +21,11 @@ void main() {
 
     test('check if toMap and fromMap methods are working properly', () {
       final Map<String, dynamic> tbcMap = {
-        'tbcid': '1',
-        'hari': 'Senin',
+        'tbcid': '2',
+        'hari': 'Selasa',
         'formattgl': '2022-03-28',
         'beratbadan': '65',
-        'keluhan': 'Demam',
+        'keluhan': 'Asma',
         'tindakan': 'Obat Paracetamol',
       };
 
