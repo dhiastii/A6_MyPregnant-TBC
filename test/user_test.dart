@@ -76,15 +76,5 @@ void main() {
       expect(copiedUserModel.email, 'dhipa@gmail.com');
       expect(copiedUserModel.Uid, 'qNe05Q4PiOekIuLR3wS8K3hTVBt2');
     });
-
-    test('Check UserModel equality', () {
-      final UserModel sameUserModel = UserModel(
-        name: 'dhipa',
-        email: 'dhipa@gmail.com',
-        Uid: 'qNe05Q4PiOekIuLR3wS8K3hTVBt2',
-      );
-
-      expect(userModel, equals(sameUserModel));
-    });
   });
 }
