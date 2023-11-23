@@ -2,7 +2,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:mypregnant/first_page.dart';
 import 'package:mypregnant/view/homepage.dart';
+import 'package:mypregnant/view/login_page.dart';
 import 'package:mypregnant/view/pregnant/wawasan_ibuhamil.dart';
+import 'package:mypregnant/view/tbc/diaggejala.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FirstPage(),
+      home: DiagnosisGejala(),
     );
   }
 }
