@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:mypregnant/main.dart';
 import 'package:mypregnant/view/tbc/diaggejala.dart'; // Sesuaikan dengan nama file utama Anda
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   testWidgets('Integration Test - DiagnosisGejala Widget',
       (WidgetTester tester) async {
     await tester.pumpWidget(MaterialApp(home: DiagnosisGejala()));
